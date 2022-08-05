@@ -37,3 +37,12 @@ stop.addEventListener('click',()=>{
     clearInterval(timeInterval);
 })
 
+//Reset
+
+reset.addEventListener('click',()=>{
+    clearInterval(timeInterval);
+    sec="00";
+    millisec="00";
+    seconds.innerHTML=sec;
+    milliseconds.innerHTML=millisec;
+})
