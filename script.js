@@ -14,4 +14,11 @@ const timer=()=>{
     if(millisec>9){
         milliseconds.innerHTML=millisec;
     }
+    if(millisec>99){
+        sec++;
+        seconds.innerHTML ="0"+sec;
+        millisec=0;
+        milliseconds.innerHTML="0"+0;
+        
+    }
 }
