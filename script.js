@@ -33,3 +33,7 @@ start.addEventListener('click',()=>{
 })
 
 //Stop button
+stop.addEventListener('click',()=>{
+    clearInterval(timeInterval);
+})
+
